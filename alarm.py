@@ -71,7 +71,7 @@ def activate_alarm():
 
 def deactivate_alarm():
     print('Deactivated alarm: ', selected.get())
-    mixer.music.stop
+    mixer.music.stop()
 
 selected = IntVar()
 
